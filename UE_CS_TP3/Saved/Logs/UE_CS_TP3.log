@@ -5506,3 +5506,379 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.25-20.48.06:062][925]LogD3D12RHI: Waited for PSO creation for 100.000000ms
 [2026.05.25-20.48.47:022][304]LogPSOHitching: Encountered 350 PSO creation hitches so far (95 graphics, 255 compute). 0 of them were precached.
 [2026.05.25-20.48.47:270][306]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.25-20.49.50:966][507]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.25-20.49.51:599][524]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.25-20.49.55:001][633]LogPSOHitching: Encountered 400 PSO creation hitches so far (129 graphics, 271 compute). 0 of them were precached.
+[2026.05.25-20.50.06:376][959]LogShaderCompilers: Display: ================================================
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Total job queries 18 524, among them cache hits 2 132 (11.51%), DDC hits 12 346 (66.65%), Duplicates 3 267 (17.64%)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Tracking 13 125 distinct input hashes that result in 12 014 distinct outputs (91.54%)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: RAM used: 160,83 MiB of 819,20 MiB budget. Usage: 19.63%
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Shaders Compiled: 779
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Jobs assigned 779, completed 779 (100%)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Average time worker was idle: 5.17 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Time job spent in pending queue: average 14.25 s, longest 62.33 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Job execution time: average 7.15 s, max 40.51 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Job life time (pending + execution): average 21.40 s, max 65.23
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Shader code size: total 12,794 MiB, numShaders 806, average 16,255 KiB, min 2,246 KiB, max 62,186 KiB
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 179.30 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Jobs were issued in 340 batches (only local compilation was used), average 2.29 jobs/batch
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Average processing rate: 4.34 jobs/sec
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Total thread time: 1 473,256 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Total thread preprocess time: 250,386 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Percentage time preprocessing: 17.00%
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Effective parallelization: 8.22 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 1.027073
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 13.24 sec, max 17.29 sec, min 10.05 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 11.45 sec, max 11.45 sec, min 11.45 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled   23 times, average 7.10 sec, max 14.84 sec, min 2.83 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled   19 times, average 6.44 sec, max 10.04 sec, min 3.11 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   22 times, average 6.06 sec, max 8.97 sec, min 1.33 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 21.21% of total time (compiled   80 times, average 3.91 sec, max 9.97 sec, min 2.74 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 11.08% of total time (compiled   23 times, average 7.10 sec, max 14.84 sec, min 2.83 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.05% of total time (compiled   22 times, average 6.06 sec, max 8.97 sec, min 1.33 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                                                 FLumenCardCS - 8.30% of total time (compiled   19 times, average 6.44 sec, max 10.04 sec, min 3.11 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 7.19% of total time (compiled    8 times, average 13.24 sec, max 17.29 sec, min 10.05 sec)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: === Material stats ===
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Materials Translated:    207
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Material Total Translate Time: 0.32 s
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Material Translation Only: 0.19 s (59%)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.05.25-20.50.06:377][959]LogShaderCompilers: Display: ================================================
+[2026.05.25-20.50.37:191][928]LogDebuggerCommands: Repeating last play command: Hublot sélectionné
+[2026.05.25-20.50.37:200][928]LogContentBundle: [LVL_StackOBot(Éditeur)] Generating Streaming for 0 Content Bundles.
+[2026.05.25-20.50.37:200][928]LogWorldPartition: Display: GenerateStreaming for 'LVL_StackOBot' started...
+[2026.05.25-20.50.37:227][928]LogWorldPartition: Display: GenerateStreaming for 'LVL_StackOBot' took 27.228 ms
+[2026.05.25-20.50.37:238][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.25-20.50.37:262][928]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.05.25-20.50.37:263][928]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.05.25-20.50.37:265][928]LogPlayLevel: Creating play world package: /Game/StackOBot/Maps/UEDPIE_0_LVL_StackOBot
+[2026.05.25-20.50.37:353][928]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.05.25-20.50.37:367][928]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 13.484 ms
+[2026.05.25-20.50.37:367][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102309s)
+[2026.05.25-20.50.37:367][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StackOBot/Maps/LVL_StackOBot.LVL_StackOBot to /Game/StackOBot/Maps/UEDPIE_0_LVL_StackOBot.LVL_StackOBot (0.102625s)
+[2026.05.25-20.50.37:447][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.05.25-20.50.37:451][928]LogWindows: WindowsPlatformFeatures enabled
+[2026.05.25-20.50.37:456][928]LogChaosDD: Creating Chaos Debug Draw Scene for world LVL_StackOBot
+[2026.05.25-20.50.37:459][928]LogWorldPartition: ULevel::OnLevelLoaded(LVL_StackOBot)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.05.25-20.50.37:459][928]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.25-20.50.37:459][928]LogWorldPartition: UWorldPartition::Initialize : World = /Game/StackOBot/Maps/UEDPIE_0_LVL_StackOBot.LVL_StackOBot, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.25-20.50.37:460][928]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.05.25-20.50.37:488][928]LogWorldPartition: Display: WorldPartition initialize took 29.284 ms (total: 2.51 sec)
+[2026.05.25-20.50.37:488][928]LogPlayLevel: PIE: World Init took: (0.032393s)
+[2026.05.25-20.50.37:490][928]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.25-20.50.37:490][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.25-20.50.37:490][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.25-20.50.37:490][928]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.25-20.50.37:490][928]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.25-20.50.37:490][928]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.25-20.50.37:490][928]LogAudio: Display: Audio Modulation Plugin: DefaultModulationPlugin
+[2026.05.25-20.50.37:492][928]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.25-20.50.37:520][928]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2026.05.25-20.50.37:520][928]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.25-20.50.37:520][928]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.25-20.50.37:520][928]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.25-20.50.37:521][928]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.05.25-20.50.37:521][928]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.05.25-20.50.37:523][928]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.05.25-20.50.37:523][928]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.05.25-20.50.37:523][928]LogInit: FAudioDevice initialized with ID 2.
+[2026.05.25-20.50.37:523][928]LogAudio: Display: Audio Device (ID: 2) registered with world 'LVL_StackOBot'.
+[2026.05.25-20.50.37:523][928]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.25-20.50.37:533][928]LogLoad: Game class is 'GM_InGame_C'
+[2026.05.25-20.50.37:536][928]LogStreaming: Display: UWorldPartitionLevelStreamingDynamic::RequestLevel(/Memory/UEDPIE_0_LVL_StackOBot_89GXRHBCF2Q8B9UNIQ37ABNV7) is flushing async loading
+[2026.05.25-20.50.37:536][928]LogStreaming: Display: FlushAsyncLoading(1402,1403,1404,1405,1406,1407,1408,1409,1410,1411,1412,1413,1414,1415,1416,1417,1418,1419,1420,1421,1422,1423,1424,1425,1426,1427,1428,1429,1430,1431,1432,1433,1434,1435,1436,1437,1438,1439,1440,1441,1442,1443,1444,1445,1446,1447,1448,1449,1450,1451,1452,1453,1454,1455,1456,1457,1458,1459,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1471,1472,1473,1474,1475): 74 QueuedPackages, 0 AsyncPackages
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/4/KO/HDQBWKI6YJUDYJGRUKOEJS.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/6/1G/3URR3R4OSCBT6Y1OO6N0A0.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/Z9/KILKGCZSD7P5MOHOJA4H7R.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/QR/K46OOE96GIVPX4CQ2B6LBN.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/8X/YB9E04NNBQYWZ1TPE6JW7Q.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/E8/IAFA6OAX0PL7C5T323CKNV.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/0/41/7S2T1QYCJ9LLY3N2WKN725.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/0S/AUL3NL6AIE3BY9J0YTIFZ1.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/Q5/8UZ2Q8FB7PVFS4HOEKMMUY.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/LF/LIVAU1ARHCR0YPX8ZILZ4J.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/5/FE/KX0T47UDDWOR2X31NV8OLU.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/4/RC/Y426L8C90BLVAGBAXPW6XT.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/4/HP/S8CTM212O8BWLWSGDAUXK4.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/3/VY/QRKFVRRZ1P3B0NNTOU2D4C.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/3/17/2KIJSLAFA6F2FQABUDRZ2S.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:447][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/4/8S/RB6MML170JQO6LK0UMXRKZ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/0/D1/5EBV8ZF9A25C0KXKD1643C.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/0/8E/4995CU54Y9792Q4VQYTQ1Z.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/0/TB/P6IKE7ONHJ851PN0J8MOAZ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/1/00/HVS65HUOGWL7VL2P51MUSH.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/2/L7/FP8JGPYVUT7NAU6Q0UO3H4.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/0/WD/KVXXH6XCAYJMY5NTJ0BPFN.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/1/F1/WBN7IBS98BBOQ8VCD65P4I.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/4/5X/7L5YYE1R96J6ONFWFW4JEC.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/2/06/PJV2K4H26TD9VHM08V3U0J.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/1/Y6/WPDBGO2WPFAZ8T4IY0EU63.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/3/JM/8LJODT9W6WJLLGBC2CL6W1.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/3/P9/Q32E2WDTQC2K3E7E4HQ9MS.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/3/3C/WYGLVYP74VBHD15CQAI56Y.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/3/4E/9F3OV6QP94SMSYW8Q3ZE1Z.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/6/7W/7N7MZQJDORZI581E47W1O4.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/6/B6/3NUGPEXMBE4VCZV2A9WNTX.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/6/D3/XG18MUVYQOVA9LXK1PIPXD.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/6/PQ/TP7HTVFVJYXPMCDA870MOH.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/7/E3/DDWL56E28UQTLEJE05SABJ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/7/V9/9AX37XIT2KHA02DKHW9BC2.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/8/C3/96FSI5NNFAAWC1L1QUFXVQ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/8/RF/ANPWKWKCD5L2A3JMQTBHSA.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/8/ST/BJ4OXZB0RV2KY5IH0SWOVF.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/1V/N8U5GTYNOGCJA7YVH00CHQ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/2G/OAE5PS6J6YQ5NVL25ZWR3Z.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/DM/2QDDLFGTU07X2WW5H3K8JJ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/FG/2Y3V726ED5OY3KXREIPKMO.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/LJ/0AISUY0FKRWOE3BRC26A4D.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:448][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/LV/12TRLRQHQCUKZADIBZ9BBU.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/O1/QC4ZX2HQ5XU4OFCKGU7BP6.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/9/W6/KAP409K3CKCGACBUXDEV03.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/A/3W/YWUP6MX7PJBS5SH5WKE75S.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/A/5I/2NXMGBNZZPO8SFQSWMTX7J.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/A/6E/3X5HICWK2WW89BGZRYOC9H.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/A/RT/QTSUE8C383JOZG4GFSDKIS.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/B/AZ/H492LPLDLVICW5J2JATXWM.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/B/EW/CDJHAHYKBNWTXR764FHW6N.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/B/F7/K33BJULZIGGT4GG8OEJQFZ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/B/HO/A36OMP8R2C1U7L6B2OHAH8.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/B/OM/Q121CO7S9O8QUYV9CXCRO3.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/C/KR/PME0HRPBBKEX1LXPL07DKG.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/29/ETSUK7JEX3O6HOMN3MH6E1.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/DZ/KESYZLGK9SU2SA5NJW1YU9.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/HO/7D4H1GKSYI79E7EQCISY6R.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/II/2TQ93C03CLJXOPH1S9CBMY.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/KZ/S0Z48WVZHFPL8YVOQRJHYZ.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/O0/0HKVQ5ILPR9ZISLV19XKZN.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:449][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_64f69f512219f0a1_488f539b47fd69db_InstanceOf_/Game/__ExternalActors__/StackOBot/Maps/LevelInstances/LI_Landscape/E/O6/2D35SVLUTPSNDZ94XK21EI.LandscapeNaniteMesh_0 being ready before playing
+[2026.05.25-20.50.38:514][928]LogWorld: Bringing World /Game/StackOBot/Maps/UEDPIE_0_LVL_StackOBot.LVL_StackOBot up for play (max tick rate 0) at 2026.05.25-16.50.38
+[2026.05.25-20.50.38:558][928]LogWorld: Bringing up level for play took: 0.051174
+[2026.05.25-20.50.38:561][928]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.05.25-20.50.38:614][928]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.05.25-20.50.39:671][928]LogStaticMesh: Display: Génération de maillage statique SM_Steps (estimation de la mémoire requise : 72.363626 Mo)…
+[2026.05.25-20.50.39:671][928]LogStaticMesh: Display: Génération de maillage statique SM_StepsEdge (estimation de la mémoire requise : 4.888256 Mo)…
+[2026.05.25-20.50.39:690][928]LogStaticMesh: Adjacency [0.00s], tris: 3192, UVs 1, Color
+[2026.05.25-20.50.39:696][928]LogStaticMesh: Clustering [0.00s]. Ratio: 1.040000
+[2026.05.25-20.50.39:697][928]LogStaticMesh: Leaves [0.00s]
+[2026.05.25-20.50.39:862][928]LogStaticMesh: Adjacency [0.01s], tris: 47376, UVs 1, Color
+[2026.05.25-20.50.39:868][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/StackOBot/Environment/Modular/SM_Steps.SM_Steps being ready before playing
+[2026.05.25-20.50.39:868][928]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/StackOBot/Environment/Props/SM_StepsEdge.SM_StepsEdge being ready before playing
+[2026.05.25-20.50.39:885][928]LogStaticMesh: Display: En attente de la préparation des maillages statiques 0/2 (/Game/StackOBot/Environment/Modular/SM_Steps)...
+[2026.05.25-20.50.39:892][928]LogStaticMesh: Clustering [0.03s]. Ratio: 1.016173
+[2026.05.25-20.50.39:897][928]LogStaticMesh: Leaves [0.01s]
+[2026.05.25-20.50.39:952][928]LogStaticMesh: Reduce [0.26s]
+[2026.05.25-20.50.40:004][928]LogStaticMesh: Fallback [0.05s], num tris: 380
+[2026.05.25-20.50.40:057][928]LogStaticMesh: Fallback [0.05s], num tris: 268
+[2026.05.25-20.50.40:067][928]LogStaticMesh: ConstrainClusters:
+[2026.05.25-20.50.40:067][928]LogStaticMesh:   Input: 53 Clusters, 6594 Triangles and 11924 Vertices
+[2026.05.25-20.50.40:067][928]LogStaticMesh:   Output without splits: 53 Clusters, 6594 Triangles and 11924 Vertices
+[2026.05.25-20.50.40:067][928]LogStaticMesh:   Output with splits: 65 Clusters, 6594 Triangles and 11936 Vertices
+[2026.05.25-20.50.40:067][928]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 65, Slow Path Clusters: 0, 1 Material: 65, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.05.25-20.50.40:071][928]LogStaticMesh: WritePages:
+[2026.05.25-20.50.40:071][928]LogStaticMesh:   Root: GPU size: 30748 bytes. 1 Pages. 30748.000 bytes per page (93.835% utilization).
+[2026.05.25-20.50.40:071][928]LogStaticMesh:   Streaming: GPU size: 110088 bytes. 1 Pages (1 with relative encoding). 110088.000 bytes per page (83.990% utilization).
+[2026.05.25-20.50.40:071][928]LogStaticMesh:   Page data disk size: 156468 bytes. Fixup data size: 288 bytes.
+[2026.05.25-20.50.40:071][928]LogStaticMesh:   Total GPU size: 140836 bytes, Total disk size: 156756 bytes.
+[2026.05.25-20.50.40:071][928]LogStaticMesh: Encode [0.01s]
+[2026.05.25-20.50.40:071][928]LogStaticMesh: NaniteBuild [0.38s]
+[2026.05.25-20.50.40:100][928]LogStaticMesh: Built static mesh [0.43s] /Game/StackOBot/Environment/Props/SM_StepsEdge.SM_StepsEdge
+[2026.05.25-20.50.40:520][928]LogStaticMesh: Reduce [0.62s]
+[2026.05.25-20.50.40:569][928]LogStaticMesh: Fallback [0.05s], num tris: 576
+[2026.05.25-20.50.40:594][928]LogStaticMesh: Fallback [0.02s], num tris: 256
+[2026.05.25-20.50.40:606][928]LogStaticMesh: ConstrainClusters:
+[2026.05.25-20.50.40:606][928]LogStaticMesh:   Input: 773 Clusters, 97249 Triangles and 64136 Vertices
+[2026.05.25-20.50.40:606][928]LogStaticMesh:   Output without splits: 773 Clusters, 97249 Triangles and 66336 Vertices
+[2026.05.25-20.50.40:606][928]LogStaticMesh:   Output with splits: 773 Clusters, 97249 Triangles and 66336 Vertices
+[2026.05.25-20.50.40:608][928]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 773, Slow Path Clusters: 0, 1 Material: 773, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.05.25-20.50.40:615][928]LogStaticMesh: WritePages:
+[2026.05.25-20.50.40:615][928]LogStaticMesh:   Root: GPU size: 32640 bytes. 1 Pages. 32640.000 bytes per page (99.609% utilization).
+[2026.05.25-20.50.40:615][928]LogStaticMesh:   Streaming: GPU size: 906116 bytes. 7 Pages (7 with relative encoding). 129445.141 bytes per page (98.759% utilization).
+[2026.05.25-20.50.40:615][928]LogStaticMesh:   Page data disk size: 919572 bytes. Fixup data size: 4016 bytes.
+[2026.05.25-20.50.40:615][928]LogStaticMesh:   Total GPU size: 938756 bytes, Total disk size: 923588 bytes.
+[2026.05.25-20.50.40:615][928]LogStaticMesh: Encode [0.02s]
+[2026.05.25-20.50.40:615][928]LogStaticMesh: NaniteBuild [0.76s]
+[2026.05.25-20.50.40:636][928]LogStaticMesh: Built static mesh [0.97s] /Game/StackOBot/Environment/Modular/SM_Steps.SM_Steps
+[2026.05.25-20.50.41:307][928]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.41:316][928]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.41:318][928]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.41:319][928]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.41:854][928]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.41:993][928]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.42:007][928]PIE: Serveur connecté
+[2026.05.25-20.50.42:011][928]PIE: Play in Editor : temps total de démarrage 4,813 secondes.
+[2026.05.25-20.50.42:031][928]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Baddy_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.25-20.50.42:125][928]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'ObjectiveUIContents' of length 0 in '/Game/StackOBot/UI/Game/UI_Game.UI_Game_C'!
+[2026.05.25-20.50.42:126][928]LogScript: Warning: Script Msg called by: UI_Game_C /Engine/Transient.UnrealEdEngine_0:GI_StackOBot_C_0.UI_Game_C_0
+[2026.05.25-20.50.42:127][928]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'ObjectiveUIContents' of length 2 in '/Game/StackOBot/UI/Game/UI_Game.UI_Game_C'!
+[2026.05.25-20.50.42:127][928]LogScript: Warning: Script Msg called by: UI_Game_C /Engine/Transient.UnrealEdEngine_0:GI_StackOBot_C_0.UI_Game_C_0
+[2026.05.25-20.50.42:448][929]LogNiagara: Compiling System NiagaraSystem /Game/StackOBot/FX/SpawnPadActive/FX_SpawnPadActive.FX_SpawnPadActive took 1.211802 sec (time since issued).
+[2026.05.25-20.50.42:450][929]LogNiagara: Compiling System NiagaraSystem /Game/StackOBot/FX/Interactions/NS_Path.NS_Path took 1.166832 sec (time since issued).
+[2026.05.25-20.50.42:539][930]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Baddy_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.25-20.50.48:635][108]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.25-20.50.48:735][108]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.25-20.50.54:174][275]LogNiagara: Compiling System NiagaraSystem /Game/StackOBot/FX/Coins/NS_CoinGet.NS_CoinGet took 7.568052 sec (time since issued).
+[2026.05.25-20.50.55:664][314]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.55:672][314]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.55:698][315]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.50.56:124][318]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089128 > MaxSimulationTimeStep (0.050) for 'BP_Bot_C_0', movement 'Walking'
+[2026.05.25-20.50.57:550][363]LogPSOHitching: Encountered 450 PSO creation hitches so far (153 graphics, 297 compute). 0 of them were precached.
+[2026.05.25-20.51.18:245][ 55]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.51.18:252][ 55]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.51.18:272][ 56]LogStateTree: Warning: Parameters for 'STree_Bug' stored in StateTreeReference were auto-fixed to be usable at runtime.
+[2026.05.25-20.51.42:780][884]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_LVL_StackOBot_7B069X1700SWKNFL8HK760J99 took (less than) 38.46 ms
+[2026.05.25-20.51.42:823][885]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_LVL_StackOBot_7B069X1700SWKNFL8HK760J99 took (less than) 21.66 ms
+[2026.05.25-20.51.42:882][886]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_LVL_StackOBot_7B069X1700SWKNFL8HK760J99 took (less than) 35.83 ms
+[2026.05.25-20.51.43:813][916]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_LVL_StackOBot_1UGRS2OXESOLCZBGJL63HAN5O took (less than) 37.98 ms
+[2026.05.25-20.51.43:853][917]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_LVL_StackOBot_1UGRS2OXESOLCZBGJL63HAN5O took (less than) 21.94 ms
+[2026.05.25-20.51.49:763][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.25-20.51.49:763][141]LogWorld: BeginTearingDown for /Game/StackOBot/Maps/UEDPIE_0_LVL_StackOBot
+[2026.05.25-20.51.49:763][141]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.05.25-20.51.49:795][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:811][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:811][141]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/StackOBot/Maps/UEDPIE_0_LVL_StackOBot.LVL_StackOBot
+[2026.05.25-20.51.49:821][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:821][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:823][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:823][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:824][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:824][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:826][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:826][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:826][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:826][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:826][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:826][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:828][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:828][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:828][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:828][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:829][141]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.49:830][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:837][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.25-20.51.49:848][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.49:897][141]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.25-20.51.49:904][141]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.25-20.51.49:904][141]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.05.25-20.51.49:906][141]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.05.25-20.51.49:915][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.25-20.51.49:982][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.05.25-20.51.50:048][142]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.05.25-20.51.51:983][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.05.25-20.51.52:010][207]LogStall: Shutdown...
+[2026.05.25-20.51.52:010][207]LogStall: Shutdown complete.
+[2026.05.25-20.51.52:037][207]LogSlate: Window 'UE_CS_TP3 - Unreal Editor' being destroyed
+[2026.05.25-20.51.52:039][207]LogWindowsTextInputMethodSystem: Activated input method: Français (Canada) - (Keyboard).
+[2026.05.25-20.51.52:100][207]Cmd: QUIT_EDITOR
+[2026.05.25-20.51.52:100][208]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.05.25-20.51.52:105][208]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.05.25-20.51.52:106][208]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.05.25-20.51.52:106][208]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.05.25-20.51.52:146][208]LogWorld: UWorld::CleanupWorld for LVL_StackOBot, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:147][208]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.05.25-20.51.52:148][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:148][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/StackOBot/Maps/LVL_StackOBot.LVL_StackOBot
+[2026.05.25-20.51.52:149][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Landscape_LevelInstance_5c9d9c294bcfbf01_0.LI_Landscape
+[2026.05.25-20.51.52:157][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_03_SideScrolling_LevelInstance_ab2fca3020df2f02_0.LI_03_SideScrolling
+[2026.05.25-20.51.52:159][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Island_M_002_LevelInstance_5bb1acce098e45c0_0.LI_Island_M_002
+[2026.05.25-20.51.52:159][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_05_SubLevelB_LevelInstance_86e624da10d6f2cd_0.LI_05_SubLevelB
+[2026.05.25-20.51.52:160][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_06_SubLevelC_LevelInstance_8afa1fdddf0cbba2_0.LI_06_SubLevelC
+[2026.05.25-20.51.52:161][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_00_Hub_LevelInstance_e6c9f1e0a651b377_0.LI_00_Hub
+[2026.05.25-20.51.52:162][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_SmallIsland_001_LevelInstance_46287acd66bc5fd4_0.LI_SmallIsland_001
+[2026.05.25-20.51.52:162][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Island_M_001_LevelInstance_3571e80b91844740_0.LI_Island_M_001
+[2026.05.25-20.51.52:162][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_02_CliffClimb_LevelInstance_48752ef1c864b341_0.LI_02_CliffClimb
+[2026.05.25-20.51.52:163][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Island_L_001_LevelInstance_28ec2eae13bc3da5_0.LI_Island_L_001
+[2026.05.25-20.51.52:164][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Island_L_002_LevelInstance_d4f2ab60e4691a3c_0.LI_Island_L_002
+[2026.05.25-20.51.52:164][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_SmallICogIsland_001_LevelInstance_5681e49c3ff13f12_0.LI_SmallICogIsland_001
+[2026.05.25-20.51.52:164][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Island_S_001_LevelInstance_28fa567e18d3b66b_0.LI_Island_S_001
+[2026.05.25-20.51.52:164][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_Island_S_002_LevelInstance_cf8a96ee4c345b7e_0.LI_Island_S_002
+[2026.05.25-20.51.52:164][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_SmallIsland_003_LevelInstance_7ba22edc062831cb_0.LI_SmallIsland_003
+[2026.05.25-20.51.52:165][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Game/StackOBot/Maps/LevelInstances/LI_SmallIsland_002_LevelInstance_aeba302dae97047c_0.LI_SmallIsland_002
+[2026.05.25-20.51.52:165][208]LogWorld: UWorld::CleanupWorld for LI_Landscape, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:165][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:172][208]LogWorld: UWorld::CleanupWorld for LI_03_SideScrolling, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:172][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:173][208]LogWorld: UWorld::CleanupWorld for LI_Island_M_002, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:174][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:174][208]LogWorld: UWorld::CleanupWorld for LI_05_SubLevelB, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:174][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:174][208]LogWorld: UWorld::CleanupWorld for LI_06_SubLevelC, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:174][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:177][208]LogWorld: UWorld::CleanupWorld for LI_00_Hub, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:177][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:177][208]LogWorld: UWorld::CleanupWorld for LI_SmallIsland_001, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:177][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:177][208]LogWorld: UWorld::CleanupWorld for LI_Island_M_001, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:177][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:177][208]LogWorld: UWorld::CleanupWorld for LI_02_CliffClimb, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:177][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:179][208]LogWorld: UWorld::CleanupWorld for LI_Island_L_001, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:179][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:179][208]LogWorld: UWorld::CleanupWorld for LI_Island_L_002, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:179][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:179][208]LogWorld: UWorld::CleanupWorld for LI_SmallICogIsland_001, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:179][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:179][208]LogWorld: UWorld::CleanupWorld for LI_Island_S_001, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:179][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:179][208]LogWorld: UWorld::CleanupWorld for LI_Island_S_002, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:179][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:179][208]LogWorld: UWorld::CleanupWorld for LI_SmallIsland_003, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:179][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:181][208]LogWorld: UWorld::CleanupWorld for LI_SmallIsland_002, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:181][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:181][208]LogWorld: UWorld::CleanupWorld for PLA_Platform_Pillar_Large_01, bSessionEnded=true, bCleanupResources=true
+[2026.05.25-20.51.52:181][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.25-20.51.52:190][208]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.05.25-20.51.52:191][208]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.05.25-20.51.52:194][208]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.05.25-20.51.52:207][208]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.05.25-20.51.52:207][208]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.05.25-20.51.52:210][208]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.05.25-20.51.52:519][208]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.05.25-20.51.52:519][208]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.05.25-20.51.52:519][208]LogAudio: Display: Audio Device unregistered from world 'LVL_StackOBot'.
+[2026.05.25-20.51.52:519][208]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.05.25-20.51.52:519][208]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.05.25-20.51.52:521][208]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.05.25-20.51.52:534][208]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.05.25-20.51.52:534][208]LogAudio: Display: Audio Device Manager Shutdown
+[2026.05.25-20.51.52:538][208]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.05.25-20.51.52:539][208]LogExit: Preparing to exit.
+[2026.05.25-20.51.52:585][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.05.25-20.51.52:985][208]LogEditorDataStorage: Deinitializing
+[2026.05.25-20.51.53:150][208]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.05.25-20.51.53:182][208]LogExit: Editor shut down
+[2026.05.25-20.51.53:184][208]LogExit: Transaction tracking system shut down
+[2026.05.25-20.51.53:513][208]LogExit: Object subsystem successfully closed.
+[2026.05.25-20.51.53:631][208]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.05.25-20.51.53:805][208]LogMemoryProfiler: Shutdown
+[2026.05.25-20.51.53:805][208]LogNetworkingProfiler: Shutdown
+[2026.05.25-20.51.53:805][208]LoadingProfiler: Shutdown
+[2026.05.25-20.51.53:806][208]LogTimingProfiler: Shutdown
+[2026.05.25-20.51.53:810][208]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.05.25-20.51.53:810][208]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.05.25-20.51.53:818][208]LogAudioModulation: Audio Modulation Shutdown
+[2026.05.25-20.51.54:126][208]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.05.25-20.51.54:163][208]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.05.25-20.51.54:164][208]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7741B6F8-42BE-5F10-ABC9-B5AFD58965DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=0e8fa99a4fb56266db835e99a7960917%7C9def055ea9144120a1771bdfdf5e59ee%7C719bd5da-247f-4fde-afdb-7403d9ec0631&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.05.25-20.51.54:727][208]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.05.25-20.51.54:728][208]LogNFORDenoise: NFORDenoise function shutting down
+[2026.05.25-20.51.54:733][208]RenderDocPlugin: plugin has been unloaded.
+[2026.05.25-20.51.54:742][208]LogXGEController: Cleaning working directory: C:/Users/2559168/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.05.25-20.51.54:748][208]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.05.25-20.51.54:748][208]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.05.25-20.51.54:748][208]LogPakFile: Destroying PakPlatformFile
+[2026.05.25-20.51.55:126][208]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.05.25-20.51.55:160][208]LogExit: Exiting.
+[2026.05.25-20.51.55:173][208]Log file closed, 05/25/26 16:51:55
