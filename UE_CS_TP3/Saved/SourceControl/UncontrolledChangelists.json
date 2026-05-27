@@ -1,0 +1,48 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_Jump_Pad.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_Pressure_pad.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_att_1.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_att_2.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_att_3.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_att_4.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_att_5.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_att_6.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_hit_1.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_hit_2.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_hit_3.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_hit_4.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_hit_5.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_hit_6.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_pas_1.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_pas_2.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_pas_3.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_pas_4.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_pas_5.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_pas_6.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_saut_1.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_saut_2.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_saut_3.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_saut_4.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_saut_5.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_R_saut_6.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_Respawn.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_gas_loop.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_glass_B1.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_glass_B2.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_glass_B3.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_glass_hit.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_grab_1.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_grab_2.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_grab_3.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_info.uasset",
+				"C:/Users/Admin/Desktop/Brandon_Jade_TP3/UE_CS_TP3/Content/Audio/Audio/SFX/SFX_water_drip.uasset"
+			]
+		}
+	]
+}
